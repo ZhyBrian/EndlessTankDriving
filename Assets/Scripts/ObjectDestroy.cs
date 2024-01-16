@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//清理离玩家距离较远的对象
 public class ObjectDestroy : MonoBehaviour
 {
     public GameObject gb;

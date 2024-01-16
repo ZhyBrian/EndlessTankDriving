@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Â·ÕÏ¿ØÖÆ
 public class BarrierCollisionReact : MonoBehaviour
 {
     public Rigidbody rb;

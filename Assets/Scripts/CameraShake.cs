@@ -31,7 +31,8 @@ public class CameraShake : MonoBehaviour
             //在单位球上随机取点
             Vector3 RandomPoint = OrigPosition + Random.insideUnitSphere * ShakeAmount;
             //更新相机位置
-            ThisTrasform.localPosition = Vector3.Lerp(ThisTrasform.localPosition, RandomPoint, Time.deltaTime * ShakeSpeed);
+            ThisTrasform.localPosition = 
+                Vector3.Lerp(ThisTrasform.localPosition, RandomPoint, Time.deltaTime * ShakeSpeed);
             yield return null;
             //更新时间
             ElapsedTime += Time.deltaTime;

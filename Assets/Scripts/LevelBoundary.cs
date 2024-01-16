@@ -5,7 +5,8 @@ using UnityEngine;
 public class LevelBoundary : MonoBehaviour
 {
     // 每块60 重叠2 每个section总长176
-    
+
+    //坦克炮塔旋转角度限制
     public static float leftTankAngleBound = -60f;  // static修饰的变量为整个类而非某个对象服务
     public static float rightTankAngleBound = 60f;
     //public static float leftTowerAngleBound = -120f;  

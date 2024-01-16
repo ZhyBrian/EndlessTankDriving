@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//敌对坦克控制：发生碰撞时有相机抖动效果，并给敌对坦克一个初始向上和前进速度，当其达到一定高度时反向移动，也会进行随机旋转
 public class EnemyCollisionReact : MonoBehaviour
 {
     public Rigidbody rb;

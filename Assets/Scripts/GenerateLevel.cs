@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// 在游戏中动态生成新的关卡，以实现无尽游戏
 public class GenerateLevel : MonoBehaviour
 {
     public GameObject[] sections;
