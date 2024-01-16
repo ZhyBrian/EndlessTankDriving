@@ -21,7 +21,9 @@
 ## Get Started
 
 To start the game, build the Unity project to generate the `Tankathon.exe` executable file.
-### 键盘控制
+
+### Keyboard Control
+
 - A - Move Left.
 - D - Move Right.
 - J - Rotate Turret Left.
@@ -29,7 +31,7 @@ To start the game, build the Unity project to generate the `Tankathon.exe` execu
 - K - Fire Standard Shell.
 - P - (Consumes MP for special ability) Fire Auto-Tracking Missile.
 
-### 手势交互
+### Gesture Interaction
 
 - While running the game, the script `hand_control_model.py` must also be executed simultaneously.
 - Gesture Control Guide: 
